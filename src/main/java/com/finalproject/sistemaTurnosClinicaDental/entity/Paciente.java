@@ -27,10 +27,33 @@ public class Paciente {
     private Direccion direccion;
 
     @Column(unique = true)
-    private String DNI;
+    private String dni;
 
     private Date fechaIngreso;
 
     @OneToMany(mappedBy = "paciente", fetch = FetchType.LAZY)
     private List<Turno> turnos;
+
+    public Paciente() {
+    }
+
+    public Paciente(Long id, String nombre, String apellido, String dni, Date fechaIngreso,
+            Direccion direccion) {
+        this.id = id;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.dni = dni;
+        this.fechaIngreso = fechaIngreso;
+        this.direccion = direccion;
+    }
+
+    public Paciente(String nombre, String apellido, String dni, Date fechaIngreso,
+            Direccion direccion) {
+
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.dni = dni;
+        this.fechaIngreso = fechaIngreso;
+        this.direccion = direccion;
+    }
 }

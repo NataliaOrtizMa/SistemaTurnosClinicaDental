@@ -25,5 +25,5 @@ public class Turno {
     @JoinColumn(name = "paciente_id")
     private Paciente paciente;
 
-    private Date date;
+    private Date fecha;
 }

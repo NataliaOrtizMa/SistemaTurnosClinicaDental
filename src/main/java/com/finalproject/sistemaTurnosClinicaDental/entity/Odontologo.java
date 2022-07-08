@@ -26,4 +26,20 @@ public class Odontologo {
 
     @OneToMany(mappedBy = "odontologo", fetch = FetchType.LAZY)
     private List<Turno> turnos;
+
+    public Odontologo() {
+    }
+
+    public Odontologo(String nombre, String apellido, String matricula) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.matricula = matricula;
+    }
+
+    public Odontologo(Long id, String nombre, String apellido, String matricula) {
+        this.id = id;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.matricula = matricula;
+    }
 }
