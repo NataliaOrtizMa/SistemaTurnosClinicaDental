@@ -46,6 +46,5 @@ public class PacienteController {
     public ResponseEntity<String> eliminarPaciente(@PathVariable Long id) {
         pacienteService.eliminarPaciente(id);
         return ResponseEntity.status(HttpStatus.NO_CONTENT).body("Paciente eliminado con " + "éxito");
-
     }
 }

@@ -29,7 +29,7 @@ public class OdontologoServiceImpl implements OdontologoService {
 
     @Override
     public Odontologo buscarOdontologoById(Long id) {
-        LOGGER.info("Buscando odontologo " + id);
+        LOGGER.info("Buscando odontólogo " + id);
         return odontologoRepository.findById(id).get();
     }
 
