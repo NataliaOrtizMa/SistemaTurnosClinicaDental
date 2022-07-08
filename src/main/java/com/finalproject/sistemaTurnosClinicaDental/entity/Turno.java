@@ -5,18 +5,18 @@ import lombok.Setter;
 import lombok.ToString;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Getter
 @Setter
 @ToString
 @Entity
-@Table(name = "direcciones")
-public class Direccion {
+@Table(name = "turnos")
+public class Turno {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String calle;
-    private String carrera;
-    private String barrio;
-    private String ciudad;
+    private Odontologo odontologo;
+    private Paciente paciente;
+    private Date date;
 }

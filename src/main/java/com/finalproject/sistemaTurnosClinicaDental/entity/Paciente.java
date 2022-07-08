@@ -11,7 +11,7 @@ import java.util.Date;
 @Setter
 @ToString
 @Entity
-@Table(name = "paciente")
+@Table(name = "pacientes")
 public class Paciente {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
