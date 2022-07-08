@@ -21,6 +21,6 @@ public class UsuarioApp {
     private String email;
     private String contraseña;
 
-    @Enumerated(EnumType.STRING)
-    private UsuarioApp appUserRole;
+    //@Enumerated(EnumType.STRING)
+    //private UsuarioApp appUserRole;
 }

@@ -33,7 +33,7 @@ public class OdontologoController {
         return ResponseEntity.ok(odontologoService.buscarOdontologos());
     }
 
-    @PutMapping("/update")
+    @PutMapping("/actualizar")
     public ResponseEntity<Odontologo> actualizarOdontologo(@RequestBody Odontologo odontologo) {
         if (odontologo.getId() != null && odontologoService.buscarOdontologoById(odontologo.getId()) != null) {
             return ResponseEntity.ok(odontologoService.actualizarOdontologo(odontologo));
