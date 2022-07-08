@@ -17,7 +17,10 @@ public class UsuarioApp {
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "user_sequence")
     private long id;
     private String name;
+
+    @Column(unique = true)
     private String username;
+
     private String email;
     private String contraseña;
 

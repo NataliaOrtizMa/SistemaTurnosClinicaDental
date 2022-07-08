@@ -5,10 +5,12 @@ import com.finalproject.sistemaTurnosClinicaDental.repository.PacienteRepository
 import com.finalproject.sistemaTurnosClinicaDental.service.PacienteService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Objects;
 
+@Service
 public class PacienteServiceImpl implements PacienteService {
     private static final Logger LOGGER = Logger.getLogger(PacienteServiceImpl.class);
 
