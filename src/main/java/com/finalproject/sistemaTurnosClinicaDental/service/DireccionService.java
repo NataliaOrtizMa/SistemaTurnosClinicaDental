@@ -5,4 +5,5 @@ import com.finalproject.sistemaTurnosClinicaDental.entity.Odontologo;
 import java.util.List;
 
 public interface DireccionService {
+    // TODO
 }

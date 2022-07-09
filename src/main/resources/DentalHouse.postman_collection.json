@@ -2,7 +2,8 @@
 	"info": {
 		"_postman_id": "39508ece-8e77-4b4f-928c-70309022936e",
 		"name": "DentalHouse",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15025104"
 	},
 	"item": [
 		{
@@ -15,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"nombre\": \"Raton\",\r\n    \"apellido\": \"Perez\",\r\n    \"matricula\": \"123ABC\"\r\n}",
+							"raw": "{\r\n    \"nombre\": \"Doctor\",\r\n    \"apellido\": \"Muelitas\",\r\n    \"matricula\": \"123ABCD\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -23,13 +24,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/odontologos/crearOdontologo",
+							"raw": "http://localhost:8080/api/odontologos/crearOdontologo",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
+								"api",
 								"odontologos",
 								"crearOdontologo"
 							]
@@ -43,13 +45,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/odontologos/1",
+							"raw": "http://localhost:8080/api/odontologos/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
+								"api",
 								"odontologos",
 								"1"
 							]
@@ -63,13 +66,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/odontologos",
+							"raw": "http://localhost:8080/api/odontologos",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
+								"api",
 								"odontologos"
 							]
 						}
@@ -83,7 +87,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"id\": 1,\r\n    \"nombre\": \"Raton\",\r\n    \"apellido\": \"Perez\",\r\n    \"matricula\": \"123ABC\"\r\n}",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"nombre\": \"Raton\",\r\n    \"apellido\": \"Perezoso\",\r\n    \"matricula\": \"123ABC\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -91,15 +95,16 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/odontologos/update",
+							"raw": "http://localhost:8080/api/odontologos/actualizar",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
+								"api",
 								"odontologos",
-								"update"
+								"actualizar"
 							]
 						}
 					},
@@ -111,13 +116,14 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/odontologos/1",
+							"raw": "http://localhost:8080/api/odontologos/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
+								"api",
 								"odontologos",
 								"1"
 							]
@@ -137,7 +143,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"nombre\": \"Juanito\",\r\n    \"apellido\": \"Perez\",\r\n    \"direccion\": {\r\n        \"calle\": 1,\r\n        \"carrera\": 1,\r\n        \"barrio\": \"Egipto\",\r\n        \"ciudad\": \"Bogotá\"\r\n    },\r\n    \"dni\": \"12345\",\r\n    \"fechaIngreso\": 05-10-1997\r\n}",
+							"raw": "{\r\n    \"nombre\": \"Juanito\",\r\n    \"apellido\": \"Perez\",\r\n    \"direccion\": {\r\n        \"calle\": 1,\r\n        \"carrera\": 1,\r\n        \"barrio\": \"Egipto\",\r\n        \"ciudad\": \"Bogotá\"\r\n    },\r\n    \"dni\": \"12345\",\r\n    \"fechaIngreso\": \"2000-03-29\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -145,13 +151,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/pacientes/crearPaciente",
+							"raw": "http://localhost:8080/api/pacientes/crearPaciente",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
+								"api",
 								"pacientes",
 								"crearPaciente"
 							]
@@ -165,13 +172,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/pacientes/1",
+							"raw": "http://localhost:8080/api/pacientes/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
+								"api",
 								"pacientes",
 								"1"
 							]
@@ -185,13 +193,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/pacientes",
+							"raw": "http://localhost:8080/api/pacientes",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
+								"api",
 								"pacientes"
 							]
 						}
@@ -213,15 +222,16 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/pacientes/update",
+							"raw": "http://localhost:8080/api/pacientes/actualizar",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
+								"api",
 								"pacientes",
-								"update"
+								"actualizar"
 							]
 						}
 					},
@@ -233,15 +243,51 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/pacientes/1",
+							"raw": "http://localhost:8080/api/pacientes/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
+								"api",
 								"pacientes",
 								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Turnos",
+			"item": [
+				{
+					"name": "Crear",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"fecha\": \"2022-09-08\",\r\n    \"odontologo\": \"1\",\r\n    \"paciente\": \"2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/turnos/crearTurno",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"turnos",
+								"crearTurno"
 							]
 						}
 					},

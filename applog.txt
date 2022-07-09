@@ -29,3 +29,22 @@ INFO    2022-07-08 16:09:02,379 [http-nio-8080-exec-1] com.finalproject.sistemaT
 INFO    2022-07-08 16:09:04,875 [http-nio-8080-exec-4] com.finalproject.sistemaTurnosClinicaDental.service.impl.PacienteServiceImpl  - Creando nuevo paciente
 INFO    2022-07-08 16:10:20,191 [http-nio-8080-exec-3] com.finalproject.sistemaTurnosClinicaDental.service.impl.OdontologoServiceImpl  - Creando nuevo odontólogo
 INFO    2022-07-08 16:10:22,536 [http-nio-8080-exec-4] com.finalproject.sistemaTurnosClinicaDental.service.impl.PacienteServiceImpl  - Creando nuevo paciente
+INFO    2022-07-08 16:41:26,570 [http-nio-8080-exec-1] com.finalproject.sistemaTurnosClinicaDental.service.impl.OdontologoServiceImpl  - Creando nuevo odontólogo
+INFO    2022-07-08 16:41:39,163 [http-nio-8080-exec-2] com.finalproject.sistemaTurnosClinicaDental.service.impl.OdontologoServiceImpl  - Creando nuevo odontólogo
+INFO    2022-07-08 16:41:57,253 [http-nio-8080-exec-4] com.finalproject.sistemaTurnosClinicaDental.service.impl.PacienteServiceImpl  - Creando nuevo paciente
+INFO    2022-07-08 16:42:00,186 [http-nio-8080-exec-5] com.finalproject.sistemaTurnosClinicaDental.service.impl.PacienteServiceImpl  - Creando nuevo paciente
+INFO    2022-07-08 16:42:28,052 [http-nio-8080-exec-7] com.finalproject.sistemaTurnosClinicaDental.service.impl.PacienteServiceImpl  - Creando nuevo paciente
+INFO    2022-07-08 16:45:50,198 [http-nio-8080-exec-6] com.finalproject.sistemaTurnosClinicaDental.service.impl.OdontologoServiceImpl  - Buscando todos los odontólogos
+INFO    2022-07-08 16:45:58,495 [http-nio-8080-exec-7] com.finalproject.sistemaTurnosClinicaDental.service.impl.PacienteServiceImpl  - Buscando todos los pacientes
+INFO    2022-07-08 19:11:06,218 [http-nio-8080-exec-6] com.finalproject.sistemaTurnosClinicaDental.service.impl.PacienteServiceImpl  - Buscando todos los pacientes
+INFO    2022-07-08 19:11:13,171 [http-nio-8080-exec-7] com.finalproject.sistemaTurnosClinicaDental.service.impl.OdontologoServiceImpl  - Buscando todos los odontólogos
+INFO    2022-07-08 19:12:16,248 [http-nio-8080-exec-10] com.finalproject.sistemaTurnosClinicaDental.service.impl.PacienteServiceImpl  - Buscando todos los pacientes
+INFO    2022-07-08 19:12:21,248 [http-nio-8080-exec-2] com.finalproject.sistemaTurnosClinicaDental.service.impl.OdontologoServiceImpl  - Buscando todos los odontólogos
+INFO    2022-07-08 19:14:26,668 [http-nio-8080-exec-1] com.finalproject.sistemaTurnosClinicaDental.service.impl.PacienteServiceImpl  - Buscando todos los pacientes
+INFO    2022-07-08 19:14:29,549 [http-nio-8080-exec-2] com.finalproject.sistemaTurnosClinicaDental.service.impl.OdontologoServiceImpl  - Buscando todos los odontólogos
+INFO    2022-07-08 19:20:51,684 [http-nio-8080-exec-3] com.finalproject.sistemaTurnosClinicaDental.service.impl.PacienteServiceImpl  - Buscando todos los pacientes
+INFO    2022-07-08 19:23:49,746 [http-nio-8080-exec-1] com.finalproject.sistemaTurnosClinicaDental.service.impl.OdontologoServiceImpl  - Buscando todos los odontólogos
+INFO    2022-07-08 19:33:30,928 [http-nio-8080-exec-5] com.finalproject.sistemaTurnosClinicaDental.service.impl.PacienteServiceImpl  - Buscando todos los pacientes
+INFO    2022-07-08 19:33:33,858 [http-nio-8080-exec-8] com.finalproject.sistemaTurnosClinicaDental.service.impl.OdontologoServiceImpl  - Buscando todos los odontólogos
+INFO    2022-07-08 19:42:06,983 [http-nio-8080-exec-5] com.finalproject.sistemaTurnosClinicaDental.service.impl.PacienteServiceImpl  - Buscando todos los pacientes
+INFO    2022-07-08 19:42:10,087 [http-nio-8080-exec-10] com.finalproject.sistemaTurnosClinicaDental.service.impl.OdontologoServiceImpl  - Buscando todos los odontólogos
