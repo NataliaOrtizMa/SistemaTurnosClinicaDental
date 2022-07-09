@@ -7,16 +7,111 @@
 	},
 	"item": [
 		{
+			"name": "Usuarios",
+			"item": [
+				{
+					"name": "Login Admin",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "email",
+								"value": "admin@admin.com",
+								"type": "text"
+							},
+							{
+								"key": "password",
+								"value": "admin",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"admin@admin.com\",\r\n    \"password\": \"admin\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login User",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "email",
+								"value": "admin@admin.com",
+								"type": "text"
+							},
+							{
+								"key": "password",
+								"value": "admin",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"admin@admin.com\",\r\n    \"password\": \"admin\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "Odontologos",
 			"item": [
 				{
 					"name": "Crear",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlck5pY2siOiJhZG1pbiIsImZ1bGxOYW1lIjoiQWRtaW5pc3RyYWRvciIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTYzMDUyMTI1MX0.vLBZ6Mqg-YZJrNMQc4hfplWoQk_tXXZLqxP92KKKx6A",
+									"type": "string"
+								}
+							]
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"nombre\": \"Doctor\",\r\n    \"apellido\": \"Muelitas\",\r\n    \"matricula\": \"123ABCD\"\r\n}",
+							"raw": "{\r\n    \"nombre\": \"Raton\",\r\n    \"apellido\": \"Perez\",\r\n    \"matricula\": \"1234ABCD\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -143,7 +238,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"nombre\": \"Juanito\",\r\n    \"apellido\": \"Perez\",\r\n    \"direccion\": {\r\n        \"calle\": 1,\r\n        \"carrera\": 1,\r\n        \"barrio\": \"Egipto\",\r\n        \"ciudad\": \"Bogotá\"\r\n    },\r\n    \"dni\": \"12345\",\r\n    \"fechaIngreso\": \"2000-03-29\"\r\n}",
+							"raw": "{\r\n    \"nombre\": \"Juanito\",\r\n    \"apellido\": \"Perez\",\r\n    \"direccion\": {\r\n        \"calle\": 1,\r\n        \"carrera\": 1,\r\n        \"barrio\": \"Egipto\",\r\n        \"ciudad\": \"Bogotá\"\r\n    },\r\n    \"dni\": \"123456\",\r\n    \"fechaIngreso\": \"2000-03-29\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -270,7 +365,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"fecha\": \"2022-09-08\",\r\n    \"odontologo\": \"1\",\r\n    \"paciente\": \"2\"\r\n}",
+							"raw": "{\r\n    \"fecha\": \"2022-09-08\",\r\n    \"odontologo\": 1,\r\n    \"paciente\": 7\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
